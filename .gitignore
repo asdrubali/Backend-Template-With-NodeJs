@@ -1,0 +1,30 @@
+# Dependency directories
+node_modules/
+dist/
+
+# Environment files
+.env
+
+# Visual Studio Code configuration
+.vscode/
+.launch.json
+
+# Editor-specific files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Yarn
+yarn-error.log
+
+# npm
+npm-debug.log
