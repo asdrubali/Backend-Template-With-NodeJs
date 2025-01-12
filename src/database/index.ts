@@ -99,8 +99,8 @@ export class DataBase {
     this.module = ModuleFactory(this.sequelize);
     this.roleModule = RoleModuleFactory(this.sequelize);
     this.allowedOperations = AllowedOperationsFactory(this.sequelize);
-    this.roleOperations = RoleOperationsFactory(this.sequelize);
     this.functionalities = FunctionalitiesFactory(this.sequelize);
+    this.roleOperations = RoleOperationsFactory(this.sequelize);
     
 
     this.associations();
